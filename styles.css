@@ -54,14 +54,27 @@ body {
   transition: all 1s;
 }
 
+.div-menu{
+  float: left;
+}
+
+.div-logo{
+  float: right;
+  margin-right: 120px;
+}
+
 .logo {
   text-decoration: none;
-  position:sticky;
+  position: fixed;
   float: right;
-  margin: 16px 36px;
+  margin: 16px 16px;
   color: var(--accent-color);
-  font-size: 24px;
-  font-weight: bold;
+  border-color: var(--accent-color);
+  border-right-color: var(--primary-color-dark);
+  border-left-color: var(--primary-color);
+  border-radius: 50px;
+  border-style:groove;
+  border-width: 10px;
 }
 
 .introduction {
@@ -84,7 +97,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
+  flex-direction: column;
   background-color: var(--accent-color);
 }
 
@@ -116,4 +129,26 @@ h2 {
   justify-content: center;
   color: var(--accent-color);
   letter-spacing: 1px;
+}
+
+.video-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  background-color: var(--accent-color);
+}
+
+.video-container video {
+  height: 315px;
+  width: auto;
+}
+
+p{
+  margin: 80px 0 0 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-color-normal);
+  text-transform: capitalize;
 }
