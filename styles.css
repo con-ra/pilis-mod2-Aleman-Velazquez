@@ -101,11 +101,12 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: var(--accent-color);
+  
 }
 
 .img-container img {
   height: 50%;
-  width: 100vh;
+  width: 45vw;
 }
 
 h1 {
@@ -154,4 +155,28 @@ p{
   color: var(--text-color-normal);
   text-transform: none;
   padding-left: 5%;
+}
+
+.form-section {
+  background-color: var(--primary-color-dark);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--accent-color);
+  letter-spacing: 1px;
+}
+
+.footer {
+  width: 100vw;
+  height:100vh;
+  background-color: var(--accent-color);
+  
+}
+
+.div-footer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: row;
 }
