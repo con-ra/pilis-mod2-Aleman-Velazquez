@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto final Módulo 2 - EDEP - FSWD</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="./scripts/main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
-
     <header>
       <nav class="navbar">
         <div>
@@ -28,7 +27,11 @@
           </div>
           <div class="div-logo">
             <a href="#home" class="logo">
-              <img src="./assets/logo-150x150-sin fondo.png" alt="" width="80px" />
+              <img
+                src="./assets/logo-150x150-sin fondo.png"
+                alt=""
+                width="80px"
+              />
             </a>
           </div>
         </div>
@@ -79,30 +82,55 @@
         <div class="introduction">
           <h2>Nosotros</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde similique maxime debitis sed recusandae ab nam dolor eum, voluptatem earum, deserunt exercitationem veniam corrupti velit vero tenetur natus explicabo! Explicabo!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+            similique maxime debitis sed recusandae ab nam dolor eum, voluptatem
+            earum, deserunt exercitationem veniam corrupti velit vero tenetur
+            natus explicabo! Explicabo!
           </p>
         </div>
       </div>
       <div class="half-section">
         <div class="img-container">
-          <img src="https://picsum.photos/id/548/600/400" alt="">
+          <img src="https://picsum.photos/id/548/600/400" alt="" />
         </div>
       </div>
     </section>
 
     <section id="register" class="content">
-      <div class="half-section form-section">
-        <p>
-          Sumate al evento para potenciar el comercio local.
-        </p>
-        <p>
-          Luego te contactaremos
-        </p>
+      <div class="half-section text-section">
+        <p>Sumate al evento para potenciar el comercio local.</p>
+        <p>Luego te contactaremos</p>
       </div>
-      <div class="half-section form-section">
-        <p>
-          formulario
-        </p>
+      <div class="half-section text-section">
+        <div class="container">
+          <div class="contact-form">
+            <form id="formulario" action="">
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input id="name" class="form-control" type="text" />
+              </div>
+              <div class="form-group">
+                <label for="name">Email</label>
+                <input id="email" class="form-control" type="email" />
+              </div>
+              <div class="form-group">
+                <label for="name">Telefono</label>
+                <!-- <input id="email" class="form-control" type="email" /> -->
+                <input id="cellphone" class="form-control" type="number">
+              </div>
+              <div class="form-group">
+                <label for="name">Mensaje</label>
+                <textarea
+                  class="form-control"
+                  name="message"
+                  id="message"
+                  cols="20"
+                  rows="8"
+                ></textarea>
+              </div>
+              <button id="enviar" class="btn btn-light">Enviar</button>
+            </form>
+          </div>  
       </div>
     </section>
 
@@ -129,5 +157,6 @@
         </div>
       </div>
     </footer>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
