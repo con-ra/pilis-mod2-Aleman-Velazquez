@@ -4,8 +4,8 @@
   --primary-color: #606c38;
   --primary-color-dark: #283618;
   --accent-color: #bc6c25;
-  --text-color-normal: #FEFAE0;
-  --text-color-alternate: #DDA15E;
+  --text-color-normal: #fefae0;
+  --text-color-alternate: #dda15e;
 }
 
 html {
@@ -54,11 +54,11 @@ body {
   transition: all 1s;
 }
 
-.div-menu{
+.div-menu {
   float: left;
 }
 
-.div-logo{
+.div-logo {
   float: right;
   margin-right: 120px;
 }
@@ -138,7 +138,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
+  flex-direction: column;
   background-color: var(--accent-color);
 }
 
@@ -147,11 +147,50 @@ h2 {
   width: auto;
 }
 
-p{
+p {
   margin: 80px 0 0 0;
   font-size: 20px;
   font-weight: 400;
   color: var(--text-color-normal);
   text-transform: none;
   padding-left: 5%;
+}
+
+/* Formulario de registro */
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+form .form-control {
+  /* display: block; */
+  width: 100%;
+  padding: 0.3rem 0.7rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  border: none;
+}
+
+/* Boton Form */
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 14px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.btn-light {
+  background: var(--accent-color);
+  border: 1px solid #841934;
+  color: #fff;
+  width: 100%;
+}
+
+.btn-light:hover {
+  background: #fff;
+  border: 1px solid #841934;
+  color: #841934;
 }
