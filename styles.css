@@ -101,7 +101,6 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: var(--accent-color);
-  
 }
 
 .img-container img {
@@ -157,60 +156,65 @@ p {
   padding-left: 5%;
 }
 
+.form-section {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 1px;
+  width: 50vw;
+  color: var(--text-color-normal);
+}
+
 /* Formulario de registro */
 form .form-group {
   margin-bottom: 1rem;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 form .form-control {
   /* display: block; */
-  width: 100%;
-  padding: 0.3rem 0.7rem;
+  padding: 0.3rem 1rem;
   font-size: 1rem;
   line-height: 1.7;
   border: none;
+  width:100%;
 }
 
 /* Boton Form */
 .btn {
   display: inline-block;
   font-size: 15px;
-  padding: 14px 23px;
+  padding: 15px 25px;
   cursor: pointer;
   font-weight: bold;
   letter-spacing: 1px;
-  border-radius: 4px;
-  margin-top: 10px;
+  border-radius: 40px;
+  margin: 10px auto;
+  position:relative;
 }
 
 .btn-light {
   background: var(--accent-color);
-  border: 1px solid #841934;
-  color: #fff;
+  border: 1px solid var(--text-color-alternate);
+  color: var(--text-color-normal);
   width: 100%;
+  margin: 10px 15px;
 }
 
 .btn-light:hover {
-  background: #fff;
-  border: 1px solid #841934;
-  color: #841934;
-}
-=======
-.form-section {
-  background-color: var(--primary-color-dark);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  background: var(--text-color-normal);
+  border: 1px solid var(--text-color-alternate);
   color: var(--accent-color);
-  letter-spacing: 1px;
 }
 
 .footer {
   width: 100vw;
   height:100vh;
   background-color: var(--accent-color);
-  
 }
 
 .div-footer {
