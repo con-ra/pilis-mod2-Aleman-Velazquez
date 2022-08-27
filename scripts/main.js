@@ -5,6 +5,7 @@ function onClick(event) {
   console.log(event);
 
   const mensaje = {
+    business: document.getElementById("business").value,
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
     phone: document.getElementById("cellphone").value,

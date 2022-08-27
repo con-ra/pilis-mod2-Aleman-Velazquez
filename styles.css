@@ -157,6 +157,7 @@ p {
   padding-left: 5%;
 }
 
+/* Formulario de registro */
 .form-section {
   background-color: var(--primary-color);
   display: flex;
@@ -168,15 +169,14 @@ p {
   color: var(--text-color-normal);
 }
 
-/* Formulario de registro */
-form .form-group {
+.form-group {
   margin-bottom: 1rem;
   width: 100%;
   justify-content: center;
   margin: 0 auto;
 }
 
-form .form-control {
+.form-control {
   /* display: block; */
   padding: 0.3rem 1rem;
   font-size: 1rem;
@@ -266,6 +266,7 @@ h4 {
   align-items: center;
 }
 
+/* Datos de contacto */
 .contacts-container{
   width: 50vw;
   height: 25vh;
