@@ -99,7 +99,7 @@
     </section>
 
     <section id="register" class="content">
-      <div class="half-section text-section">
+      <div class="half-section text-section introduction">
         <h2>Sumate al evento para potenciar el comercio local.</h2>
         <p>Luego te contactaremos</p>
       </div>
@@ -133,57 +133,65 @@
           </form>
         </div>
       </div>
-      <div class="half-section"></div>
     </section>
 
     <footer id="weather" class="footer">
       <div class="div-footer">
-        <div class="half-section img-container">
-          <p>Clima para el lugar del evento</p>
+        <div class="half-section weather-section introduction">
+          <h2>Clima para el lugar del evento</h2>
           <!--Seccion en donde se cargan los datos del clima  -->
-      <div class="card-weather">
-        <h4 id="location"></h4>
-        <img id="icon" src="" alt="" />
-        <div id="temp"></div>
-        <!--  <div id="description"></div> -->
-        <div id="feels_like"></div>
-        <div id="temp_max"></div>
-        <div id="temp_min"></div>
-        <div id="humidity"></div>
-        <!-- <div id="date"></div> -->
-      </div>
+          <div class="card-weather img-weather">
+            <h4 id="location"></h4>
+            <img id="icon" src="" alt="" />
+            <div id="temp"></div>
+            <!--  <div id="description"></div> -->
+            <div id="feels_like"></div>
+            <div id="temp_max"></div>
+            <div id="temp_min"></div>
+            <div id="humidity"></div>
+            <!-- <div id="date"></div> -->
+          </div>
         </div>
         <div class="half-container img-container">
-          <p>Lugar del evento</p>
-          <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.6667426492363!2d-65.33348658501039!3d-24.183417684377638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0ee2033f07f3%3A0xc77a811c6a4b0561!2sCiudad%20Cultural!5e0!3m2!1ses!2sar!4v1661525936955!5m2!1ses!2sar"
-        width="400"
-        height="300"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-          <div class="contacts-container">
-            <!-- <img src="./assets/logo-whatsapp.png" height="50px" width="50px"> -->
-            <p>
-              <a
-                href="https://api.whatsapp.com/send?phone=3884444808&text=😀%20FSWD"
-                target="_blank"
-                >Conrado Velazquez</a
-              >
-            </p>
-            <p>
-              <a
-                href="https://wa.me/send?phone=3884887940&text=😀%20FSWD"
-                target="_blank"
-                >Liliana Aleman</a
-              >
-            </p>
+          <div class="site-contact-container">
+            <h2>Lugar del evento</h2><br>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.6667426492363!2d-65.33348658501039!3d-24.183417684377638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0ee2033f07f3%3A0xc77a811c6a4b0561!2sCiudad%20Cultural!5e0!3m2!1ses!2sar!4v1661525936955!5m2!1ses!2sar"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="contacts-container">
+              <h2>Contactos</h2><br>
+              <div class="contacts">
+                <p>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=3884444808&text=😀%20FSWD"
+                    target="_blank"
+                    ><img src="./assets/logo-whatsapp.png" /></a
+                  ><br />
+                  Conrado Velazquez
+                </p>
+              </div>
+              <div class="contacts">
+                <p>
+                  <a
+                    href="https://wa.me/send?phone=3884887940&text=😀%20FSWD"
+                    target="_blank"
+                    ><img src="./assets/logo-whatsapp.png" /></a
+                  ><br />
+                  Liliana Aleman
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </footer>
+
     <script src="./scripts/main.js"></script>
     <script src="./scripts/weather.js"></script>
   </body>
